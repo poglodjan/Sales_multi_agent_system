@@ -129,7 +129,7 @@ conversation_history = [
     {"role": "system", "content": initial_system_prompt}
 ]
 
-api_key = "sk-proj-tRsGCKJPehI0I5QJHg_z9agqRntjDAPM3qwtx-x24uG0jbASUN1slV4oHm3xzLLUp13hw2T7HA7ypoDitBbonwwSWnW9UAgkNRtEA"
+api_key = "..."
 if not api_key:
     raise ValueError("OPENAI_API_KEY nie jest ustawiony!")
 client = OpenAI(api_key=api_key)
